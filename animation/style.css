@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gears{
+    margin: auto;
+    width: 600px;
+}
+
+.gear{
+    transition: all 0s ;
+    animation-name: spin;
+    animation-duration: 0.9s;
+    animation-iteration-count: infinite;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    border-radius:100%;
+}
+
+.gear2{
+    transition: all 0s ;
+    animation-name: spin2;
+    animation-duration: 0.9s;
+    animation-iteration-count:infinite;
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    animation-delay: 1s;
+    animation-timing-function: linear;
+    border-radius:100%;
+
+
+   
+
+}
+
+@keyframes spin{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(-360deg);
+    }
+}
+@keyframes spin2{
+    form{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+
+
+

@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1440px;
+    margin: auto;
+
+}
+.artel{
+    background-image:url(./img/BackgroundImage.svg);
+    width:1440px;
+    height: 800px;
+    color: white;
+    padding: 50px;}
+.img_artel{
+    position: relative;
+    top: 200px;
+    left:380px;
+}
+.menu{
+    position: relative;
+    bottom: 230px;
+    left: 750px;
+}
+.sayt{
+    width: 50px;
+    height: 200px;
+    position: relative;
+    top: 200px;
+}
+.sayt img{
+    margin-bottom: 15px;
+}
+.list{
+    background-color: black;
+    height: 800px;
+    position: relative;
+    padding: 50px;
+
+}
+.ОНАС{
+    font-size: 48px;
+    color: rgb(0, 0, 0);
+       font-size: 48px;
+    text-shadow: 
+        2px 2px 0 rgb(255, 244, 244), 
+       -2px 2px 0 rgb(255, 255, 255), 
+        2px -2px 0 rgb(246, 241, 241), 
+       -2px -2px 0 rgb(255, 253, 253);
+}
+
+.icon{
+    background-image:url(./img/Vector\ \(6\).svg) ;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 50px;
+    left: 100px;
+}
+.first{
+    width: 400px;
+    height: 200px;
+    background-color: #15171B;
+    position: relative;
+    top: 250px;
+    left: 100px;
+}
+.icon img{
+    position: relative;
+    left: 110px;
+}
+.first1{
+    width: 400px;
+    height: 200px;
+    background-color: #15171B;
+    position: relative;
+    left: 750px;
+    top: 40px;
+    
+}
+.first2{
+    width: 400px;
+    height: 200px;
+    background-color: #15171B;
+    position: relative;
+   left: 750px;
+   bottom: 550px;
+}
+.container2 {
+    color: white;
+    text-align: center;
+    width: 1440px;
+    padding: 20px;
+    background-color: black;
+}
+
+.title {
+   
+    margin-bottom: 10px;
+}
+
+.description {
+    
+    margin-bottom: 20px;
+}
+
+
+.strategy {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.strategy-item {
+    background-color: #000000;
+    padding: 20px;
+    width: 30%;
+    text-align: left;
+}
+
+.number {
+    color: #00ff00;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    display: block;
+}
