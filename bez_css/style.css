@@ -1,0 +1,6 @@
+@media(max-width:700px){
+   .continer{ 
+    width: 700px;
+    grid-template-columns: 1fr 200px;
+   }
+}

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.continer{
+    width: 1440px;
+    margin: auto;
+    height: 3800px;
+    background-color: white;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 30px;
+    text-decoration: none;
+    text-align: none;
+}
+nav ul{
+    position: relative;
+    left: 854px;
+    bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: black;
+    justify-content: space-between;
+}
+header {
+    width: 1440px;
+    
+}
+header span{
+    position: relative;
+    top: 20px;
+}
+.middle{
+    width: 670px;
+    height: 2336px;
+    background-color: aqua;
+    margin: 50px auto;
+}
+
+ .btn1{
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
