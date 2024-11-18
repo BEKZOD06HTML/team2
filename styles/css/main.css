@@ -1,3 +1,154 @@
+.page2 {
+  width: 1440px;
+  height: 500px;
+  background-color: rgb(0, 0, 54);
+  display: flex;
+  color: white;
+}
+.page2 img {
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 200px;
+}
+.page2 .text {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  left: 500px;
+  top: 200px;
+}
+.page2 .text button {
+  width: 200px;
+  height: 70px;
+  background-color: #DD2242;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50px;
+  transition: 0.5s ease;
+}
+.page2 .text button:hover {
+  background-color: #b71c36;
+}
+
+.page3 {
+  width: 1440px;
+  height: 500px;
+  background-color: rgb(0, 0, 54);
+  display: flex;
+  color: white;
+}
+.page3 img {
+  width: 450px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  left: 900px;
+}
+.page3 .text {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  top: 200px;
+  right: 200px;
+}
+.page3 .text button {
+  width: 200px;
+  height: 70px;
+  background-color: #DD2242;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  border-radius: 50px;
+  transition: 0.5s ease;
+}
+.page3 .text button:hover {
+  background-color: #b71c36;
+}
+
+.page4 {
+  width: 1440px;
+  height: 1300px;
+}
+.page4 .xz {
+  display: flex;
+  width: 1400px;
+  height: 300px;
+  overflow-x: hidden;
+  position: relative;
+  left: 300px;
+}
+.page4 .xz .gallery {
+  display: flex;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  width: 600px;
+  height: 200px;
+}
+.page4 .xz .gallery img {
+  width: 300px;
+  height: 300px;
+}
+.page4 .bottom {
+  background: rgb(0, 0, 44);
+  width: 1440px;
+  height: 520px;
+  opacity: 0.7;
+  position: relative;
+  top: 450px;
+  padding: 50px;
+  color: white;
+}
+
+.xz::-webkit-scrollbar {
+  display: none;
+}
+
+.page5 {
+  width: 1440px;
+  height: 800px;
+  background-color: white;
+  padding: 100px 0;
+}
+.page5 p {
+  width: 500px;
+  color: gray;
+}
+
+.page6 {
+  width: 1440px;
+  height: 1000px;
+  background-color: #DCE8F2;
+  position: relative;
+  top: 350px;
+}
+.page6 .img1 {
+  position: relative;
+  left: 300px;
+  top: 300px;
+}
+.page6 h1 {
+  font-size: 48px;
+  position: relative;
+  left: 300px;
+  top: 200px;
+}
+.page6 .img2 {
+  position: relative;
+  bottom: 250px;
+  left: 370px;
+}
+
+.last {
+  width: 1440px;
+  height: 300px;
+  background-color: darkblue;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -7,17 +158,33 @@
 .container {
   width: 1440px;
   margin: auto;
-  height: 5000px;
+  height: 10000px;
 }
 .container .frist_page {
   width: 1440px;
-  height: 800px;
+  height: 1050px;
 }
 .container .frist_page header {
   width: 1440px;
   height: 300px;
   display: flex;
   padding: 30px;
+}
+.container .frist_page header .buttons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.container .frist_page header .buttons button {
+  width: 50px;
+  height: 50px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  cursor: pointer;
+  position: relative;
+  left: 400px;
+  bottom: 80px;
 }
 .container .frist_page header ul {
   list-style-type: none;
@@ -29,7 +196,6 @@
   position: relative;
   top: 35px;
   left: 50px;
-  background-color: aqua;
 }
 .container .frist_page header ul li {
   width: 180px;
@@ -51,4 +217,29 @@
 .container .frist_page header .flower span {
   position: relative;
   top: 15px;
+}
+.container .frist_page .middle h1 {
+  font-size: 100px;
+  color: white;
+  width: 600px;
+  height: 250px;
+  position: relative;
+  left: 250px;
+}
+.container .frist_page .middle button {
+  width: 300px;
+  height: 90px;
+  border: none;
+  border-radius: 50px;
+  background-color: #DD2242;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  bottom: 400px;
+  left: 250px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.container .frist_page .middle button:hover {
+  background-color: #b71c36;
 }/*# sourceMappingURL=main.css.map */
